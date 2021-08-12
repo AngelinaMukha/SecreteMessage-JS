@@ -5,7 +5,7 @@ const message = atob(hash.replace('#',''));
 if(message){
     document.querySelector('#message-form').classList.add('hide');
     document.querySelector('#message-show').classList.remove('hide');
-    document.querySelector('h1').innerHTML="KAK pisat na pysskom";
+    document.querySelector('h1').innerHTML=message;
 }
 
 const form = document.querySelector('form');
